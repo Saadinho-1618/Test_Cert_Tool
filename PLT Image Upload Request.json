@@ -1,0 +1,113 @@
+"plannedShippingDateAndTime": "2021-05-11T14:03:26GMT+02:00",
+"pickup": {
+    "isRequested": false
+},
+"productCode": "P",
+"accounts": [
+    {
+        "typeCode": "shipper",
+        "number": "969832472"
+    }
+],
+"customerDetails": {
+    "shipperDetails": {
+        "postalAddress": {
+            "postalCode": "122002",
+            "cityName": "Dubai",
+            "countryCode": "AE",
+            "addressLine1": "Sabrin Building",
+            "addressLine2": "addres2",
+            "addressLine3": "addres3",
+            "countyName": "Dubai"
+        },
+        "contactInformation": {
+            "email": "support@shopkees.com",
+            "phone": "+971529878704",
+            "mobilePhone": "+971529878704",
+            "companyName": "Shopkees",
+            "fullName": "Amjad Sanin"
+        }
+    },
+    "receiverDetails": {
+        "postalAddress": {
+            "postalCode": "75065",
+            "cityName": "Denton",
+            "countryCode": "US",
+            "addressLine1": "Texes",
+            "addressLine2": "addres2",
+            "addressLine3": "addres3",
+            "countyName": " "
+        },
+        "contactInformation": {
+            "email": "admin@gmail.com",
+            "phone": "+1123456789",
+            "mobilePhone": "+1123456789",
+            "companyName": "no company",
+            "fullName": "Jashil ahammed"
+        },
+        "typeCode": "direct_consumer"
+    }
+},
+"content": {
+    "packages": [
+        {
+            "typeCode": "2BP",
+            "weight": 0.5,
+            "dimensions": {
+                "length": 15,
+                "width": 15,
+                "height": 40
+            }
+        }
+    ]
+},
+"isCustomsDeclarable": true,
+"declaredValue": 150,
+"declaredValueCurrency": "AED",
+"exportDeclaration": {
+    "lineItems": [
+        {
+            "number": 1,
+            "description": "line item description",
+            "price": 150,
+            "quantity": {
+                "value": 1,
+                "unitOfMeasurement": "BOX"
+            },
+            "commodityCodes": [
+                {
+                    "typeCode": "outbound",
+                    "value": "HS1234567890"
+                }
+            ],
+            "exportReasonType": "permanent",
+            "manufacturerCountry": "AE",
+            "exportControlClassificationNumber": "US123456789",
+            "weight": {
+                "netValue": 10,
+                "grossValue": 10
+            },
+            "isTaxesPaid": true,
+            "additionalInformation": [
+                "string"
+            ],
+            "customerReferences": [
+                {
+                    "typeCode": "AFE",
+                    "value": "string"
+                }
+            ],
+            "customsDocuments": [
+                {
+                    "typeCode": "972",
+                    "value": "string"
+                }
+            ]
+        }
+    ]
+},
+"description": "shipment description",
+"incoterm": "DAP",
+"unitOfMeasurement": "metric"
+}
+}
